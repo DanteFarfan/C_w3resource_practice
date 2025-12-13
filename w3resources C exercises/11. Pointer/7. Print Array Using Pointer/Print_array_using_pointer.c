@@ -10,7 +10,7 @@ int main()
 
     do
     {
-        printf("Enter how many numbers do you want");
+        printf("Enter how many numbers do you want: ");
         scanf("%d", &array_size);
     } while (array_size < 1);
 
